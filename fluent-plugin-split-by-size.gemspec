@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Split events into multiple events based on a given size.}
   spec.description   = %q{Split events into multiple events based on a size option and using an id field to link them all together.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/zendesk/fluent-plugin-split-by-size"
   spec.license       = "Apache-2.0"
 
   test_files, files  = `git ls-files -z`.split("\x0").partition do |f|
