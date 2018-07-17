@@ -14,7 +14,7 @@
 # limitations under the License.
 
 require "fluent/plugin/filter"
-require "json"
+require "yajl"
 
 module Fluent
   module Plugin
