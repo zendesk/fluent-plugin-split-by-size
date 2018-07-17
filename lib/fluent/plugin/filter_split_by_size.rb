@@ -71,7 +71,7 @@ module Fluent
       end
 
       def size_of_values(record)
-        record.to_json.bytesize
+        Yajl.dump(record).bytesize
       end
 
       def split_event(record)
